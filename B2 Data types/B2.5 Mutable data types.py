@@ -136,7 +136,7 @@ person['age'] = 27
 person['email'] = 'ivan_petrov@example.com'
 person['phone'] = '8(800)555-35-35'
 
-print(person)
+print(len(person), person.keys())
 # Попытка извлечения объекта по несуществующему ключу приведет к ошибке!
 # Можно отдельно получить список ключей:
 print(person.keys())  # используя метод - .keys()
